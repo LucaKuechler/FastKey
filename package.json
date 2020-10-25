@@ -1,0 +1,1278 @@
+{
+    "name": "fastkey",
+    "displayName": "fastKey",
+    "description": "a custom keymap that is fu..ing awesome",
+    "publisher": "mussweg",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/"
+    },
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "contributes": {
+        "keybindings": [
+            {
+                "name": "open the internal terminal",
+                "win": "ctrl+t",
+                "linux": "ctrl+t",
+                "key": "ctrl+t",
+                "command": "workbench.action.terminal.toggleTerminal",
+                "when": ""
+            },
+            {
+                "name": "open the sidebar",
+                "win": "ctrl+e",
+                "linux": "ctrl+e",
+                "key": "ctrl+e",
+                "command": "workbench.action.toggleSidebarVisibility",
+                "when": ""
+            },
+            {
+                "name": "fullscreen",
+                "win": "f11",
+                "linux": "f11",
+                "key": "f11",
+                "command": "workbench.action.toggleFullScreen",
+                "when": ""
+            },
+            {
+                "name": "zoom in[x]",
+                "win": "ctrl+shift+oem_plus",
+                "linux": "ctrl+shift+oem_plus",
+                "key": "ctrl+shift+oem_plus",
+                "command": "workbench.action.zoomIn",
+                "when": ""
+            },
+            {
+                "name": "zoom out[x]",
+                "win": "ctrl+shift+oem_minus",
+                "linux": "ctrl+shift+oem_minus",
+                "key": "ctrl+shift+oem_minus",
+                "command": "workbench.action.zoomOut",
+                "when": ""
+            },
+            {
+                "name": "zen mode",
+                "win": "ctrl+k z",
+                "linux": "ctrl+k z",
+                "key": "ctrl+k z",
+                "command": "workbench.action.toggleZenMode",
+                "when": ""
+            },
+            {
+                "name": "leave zen mode",
+                "win": "escape+escape",
+                "linux": "escape+escape",
+                "key": "escape+escape",
+                "command": "workbench.action.exitZenMode",
+                "when": "inZenMode"
+            },
+            {
+                "name": "open the explorer",
+                "win": "ctrl+oem_4 e",
+                "linux": "ctrl+oem_4 e",
+                "key": "ctrl+oem_4 e",
+                "command": "workbench.view.explorer",
+                "when": ""
+            },
+            {
+                "name": "open the extensions",
+                "win": "ctrl+oem_4 x",
+                "linux": "ctrl+oem_4 x",
+                "key": "ctrl+oem_4 x",
+                "command": "workbench.view.extensions",
+                "when": ""
+            },
+            {
+                "name": "open the debug log",
+                "win": "ctrl+oem_4 d",
+                "linux": "ctrl+oem_4 d",
+                "key": "ctrl+oem_4 d",
+                "command": "workbench.view.debug",
+                "when": ""
+            },
+            {
+                "name": "open the search tab",
+                "win": "ctrl+oem_4 s",
+                "linux": "ctrl+oem_4 s",
+                "key": "ctrl+oem_4 s",
+                "command": "workbench.view.search",
+                "when": ""
+            },
+            {
+                "name": "open the expand search tab",
+                "win": "ctrl+oem_4 ctrl+s",
+                "linux": "ctrl+oem_4 ctrl+s",
+                "key": "ctrl+oem_4 ctrl+s",
+                "command": "workbench.action.search.toggleQueryDetails",
+                "when": ""
+            },
+            {
+                "name": "open a external terminal",
+                "win": "ctrl+oem_4 t",
+                "linux": "ctrl+oem_4 t",
+                "key": "ctrl+oem_4 t",
+                "command": "workbench.action.terminal.openNativeConsole",
+                "when": ""
+            },
+            {
+                "name": "show the output",
+                "win": "ctrl+oem_4 o",
+                "linux": "ctrl+oem_4 o",
+                "key": "ctrl+oem_4 o",
+                "command": "workbench.action.output.showOutput",
+                "when": ""
+            },
+            {
+                "name": "open the file inside the explorer",
+                "win": "ctrl+oem_4 f",
+                "linux": "ctrl+oem_4 f",
+                "key": "ctrl+oem_4 f",
+                "command": "revealFileInOS",
+                "when": "!editorFocus"
+            },
+            {
+                "name": "show the activity bar",
+                "win": "ctrl+oem_4 a",
+                "linux": "ctrl+oem_4 a",
+                "key": "ctrl+oem_4 a",
+                "command": "workbench.action.toggleActivityBarVisibility",
+                "when": ""
+            },
+            {
+                "name": "show minimap",
+                "win": "ctrl+oem_4 m",
+                "linux": "ctrl+oem_4 m",
+                "key": "ctrl+oem_4 m",
+                "command": "editor.action.toggleMinimap",
+                "when": ""
+            },
+            {
+                "name": "show the status bar",
+                "win": "ctrl+oem_4 b",
+                "linux": "ctrl+oem_4 b",
+                "key": "ctrl+oem_4 b",
+                "command": "workbench.action.toggleStatusbarVisibility",
+                "when": ""
+            },
+            {
+                "name": "select a color theme",
+                "win": "ctrl+oem_4 c",
+                "linux": "ctrl+oem_4 c",
+                "key": "ctrl+oem_4 c",
+                "command": "workbench.action.selectTheme",
+                "when": ""
+            },
+            {
+                "name": "show the warnings tab",
+                "win": "ctrl+oem_4 w",
+                "linux": "ctrl+oem_4 w",
+                "key": "ctrl+oem_4 w",
+                "command": "workbench.action.showErrorsWarnings",
+                "when": ""
+            },
+            {
+                "name": "go to settings",
+                "win": "ctrl+oem_comma",
+                "linux": "ctrl+oem_comma",
+                "key": "ctrl+oem_comma",
+                "command": "workbench.action.openSettings",
+                "when": ""
+            },
+            {
+                "name": "go to the json view",
+                "win": "ctrl+oem_period",
+                "linux": "ctrl+oem_period",
+                "key": "ctrl+oem_period",
+                "command": "settings.switchToJSON",
+                "when": ""
+            },
+            {
+                "name": "show markdown preview",
+                "win": "ctrl+k m",
+                "linux": "ctrl+k m",
+                "key": "ctrl+k m",
+                "command": "markdown.showPreviewToSide",
+                "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+            },
+            {
+                "name": "refresh markdown preview",
+                "win": "ctrl+k strg+m",
+                "linux": "ctrl+k strg+m",
+                "key": "ctrl+k strg+m",
+                "command": "markdown.preview.refresh",
+                "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+            },
+            {
+                "name": "open the shortcut window",
+                "win": "ctrl+k s",
+                "linux": "ctrl+k s",
+                "key": "ctrl+k s",
+                "command": "workbench.action.openGlobalKeybindings",
+                "when": ""
+            },
+            {
+                "name": "set the icon theme",
+                "win": "ctrl+k i",
+                "linux": "ctrl+k i",
+                "key": "ctrl+k i",
+                "command": "workbench.action.selectIconTheme",
+                "when": ""
+            },
+            {
+                "name": "open the keymap wctrl+sndow",
+                "win": "ctrl+k ctrl+s",
+                "linux": "ctrl+k ctrl+s",
+                "key": "ctrl+k ctrl+s",
+                "command": "workbench.extensions.action.showRecommendedKeymapExtensions",
+                "when": ""
+            },
+            {
+                "name": "create a new file",
+                "win": "ctrl+n",
+                "linux": "ctrl+n",
+                "key": "ctrl+n",
+                "command": "workbench.action.files.newUntitledFile",
+                "when": ""
+            },
+            {
+                "name": "open file in new window",
+                "win": "ctrl+shift+o",
+                "linux": "ctrl+shift+o",
+                "key": "ctrl+shift+o",
+                "command": "workbench.action.files.showOpenedFileInNewWindow",
+                "when": "emptyWorkspaceSupport"
+            },
+            {
+                "name": "open a new folder",
+                "win": "ctrl+k f",
+                "linux": "ctrl+k f",
+                "key": "ctrl+k f",
+                "command": "workbench.action.files.openFolder",
+                "when": ""
+            },
+            {
+                "name": "open a new workspace",
+                "win": "ctrl+k w",
+                "linux": "ctrl+k w",
+                "key": "ctrl+k w",
+                "command": "workbench.action.openWorkspace",
+                "when": ""
+            },
+            {
+                "name": "close the current folder",
+                "win": "ctrl+k c",
+                "linux": "ctrl+k c",
+                "key": "ctrl+k c",
+                "command": "workbench.action.closeFolder",
+                "when": "emptyWorkspaceSupport"
+            },
+            {
+                "name": "add a folder to workspace",
+                "win": "ctrl+k ctrl+f",
+                "linux": "ctrl+k ctrl+f",
+                "key": "ctrl+k ctrl+f",
+                "command": "workbench.action.addRootFolder",
+                "when": ""
+            },
+            {
+                "name": "open a recent folder",
+                "win": "ctrl+k r",
+                "linux": "ctrl+k r",
+                "key": "ctrl+k r",
+                "command": "workbench.action.openRecent",
+                "when": ""
+            },
+            {
+                "name": "open instant the least used folder[x]",
+                "win": "ctrl+k ctrl+r",
+                "linux": "ctrl+k ctrl+r",
+                "key": "ctrl+k ctrl+r",
+                "command": "workbench.action.quickOpenRecent",
+                "when": ""
+            },
+            {
+                "name": "open new window",
+                "win": "ctrl+oem_6",
+                "linux": "ctrl+oem_6",
+                "key": "ctrl+oem_6",
+                "command": "workbench.action.newWindow",
+                "when": ""
+            },
+            {
+                "name": "close the current window",
+                "win": "ctrl+shift+oem_6",
+                "linux": "ctrl+shift+oem_6",
+                "key": "ctrl+shift+oem_6",
+                "command": "workbench.action.closeWindow",
+                "when": ""
+            },
+            {
+                "name": "save the current file",
+                "win": "ctrl+s",
+                "linux": "ctrl+s",
+                "key": "ctrl+s",
+                "command": "workbench.action.files.save",
+                "when": ""
+            },
+            {
+                "name": "save all files",
+                "win": "alt+s",
+                "linux": "alt+s",
+                "key": "alt+s",
+                "command": "workbench.action.files.saveAll",
+                "when": ""
+            },
+            {
+                "name": "save file as",
+                "win": "ctrl+shift+s",
+                "linux": "ctrl+shift+s",
+                "key": "ctrl+shift+s",
+                "command": "workbench.action.files.saveAs",
+                "when": ""
+            },
+            {
+                "name": "open a file",
+                "win": "ctrl+o",
+                "linux": "ctrl+o",
+                "key": "ctrl+o",
+                "command": "workbench.action.files.openFile",
+                "when": ""
+            },
+            {
+                "name": "focus side bar",
+                "win": "ctrl+0",
+                "linux": "ctrl+0",
+                "key": "ctrl+0",
+                "command": "workbench.action.focusSideBar",
+                "when": ""
+            },
+            {
+                "name": "add a debug break point",
+                "win": "f9",
+                "linux": "f9",
+                "key": "f9",
+                "command": "editor.debug.action.toggleBreakpoint",
+                "when": "editor.debug.action.toggleBreakpoint"
+            },
+            {
+                "name": "run program",
+                "win": "f5",
+                "linux": "f5",
+                "key": "f5",
+                "command": "workbench.action.debug.start",
+                "when": "debuggersAvailable && !inDebugMode"
+            },
+            {
+                "name": "continue debug",
+                "win": "f5",
+                "linux": "f5",
+                "key": "f5",
+                "command": "workbench.action.debug.continue",
+                "when": "inDebugMode"
+            },
+            {
+                "name": "pause debug",
+                "win": "f6",
+                "linux": "f6",
+                "key": "f6",
+                "command": "workbench.action.debug.pause",
+                "when": "debugState == 'running'"
+            },
+            {
+                "name": "stop program",
+                "win": "shift+f5",
+                "linux": "shift+f5",
+                "key": "shift+f5",
+                "command": "workbench.action.debug.stop",
+                "when": "inDebugMode"
+            },
+            {
+                "name": "split current tab to side editor",
+                "win": "ctrl+oem_5",
+                "linux": "ctrl+oem_5",
+                "key": "ctrl+oem_5",
+                "command": "workbench.action.splitEditor",
+                "when": ""
+            },
+            {
+                "name": "close current tab",
+                "win": "ctrl+w",
+                "linux": "ctrl+w",
+                "key": "ctrl+w",
+                "command": "workbench.action.closeActiveEditor",
+                "when": ""
+            },
+            {
+                "name": "switch to tab by index=1 in current editor",
+                "win": "alt+1",
+                "linux": "alt+1",
+                "key": "alt+1",
+                "command": "workbench.action.openEditorAtIndex1",
+                "when": ""
+            },
+            {
+                "name": "switch to tab by index=2 in current editor",
+                "win": "alt+2",
+                "linux": "alt+2",
+                "key": "alt+2",
+                "command": "workbench.action.openEditorAtIndex2",
+                "when": ""
+            },
+            {
+                "name": "switch to tab by index=3 in current editor",
+                "win": "alt+3",
+                "linux": "alt+3",
+                "key": "alt+3",
+                "command": "workbench.action.openEditorAtIndex3",
+                "when": ""
+            },
+            {
+                "name": "switch to tab by index=4 in current editor",
+                "win": "alt+4",
+                "linux": "alt+4",
+                "key": "alt+4",
+                "command": "workbench.action.openEditorAtIndex4",
+                "when": ""
+            },
+            {
+                "name": "switch to tab by index=5 in current editor",
+                "win": "alt+5",
+                "linux": "alt+5",
+                "key": "alt+5",
+                "command": "workbench.action.openEditorAtIndex5",
+                "when": ""
+            },
+            {
+                "name": "switch to tab by index=6 in current editor",
+                "win": "alt+6",
+                "linux": "alt+6",
+                "key": "alt+6",
+                "command": "workbench.action.openEditorAtIndex6",
+                "when": ""
+            },
+            {
+                "name": "switch to tab by index=7 in current editor",
+                "win": "alt+7",
+                "linux": "alt+7",
+                "key": "alt+7",
+                "command": "workbench.action.openEditorAtIndex7",
+                "when": ""
+            },
+            {
+                "name": "switch to tab by index=8 in current editor",
+                "win": "alt+8",
+                "linux": "alt+8",
+                "key": "alt+8",
+                "command": "workbench.action.openEditorAtIndex8",
+                "when": ""
+            },
+            {
+                "name": "switch to tab by index=9 in current editor",
+                "win": "alt+9",
+                "linux": "alt+9",
+                "key": "alt+9",
+                "command": "workbench.action.openEditorAtIndex9",
+                "when": ""
+            },
+            {
+                "name": "numpad -> switch to tab by index=1 in current editor",
+                "win": "alt+numpad1",
+                "linux": "alt+numpad1",
+                "key": "alt+numpad1",
+                "command": "workbench.action.openEditorAtIndex1",
+                "when": ""
+            },
+            {
+                "name": "numpad -> switch to tab by index=2 in current editor",
+                "win": "alt+numpad2",
+                "linux": "alt+numpad2",
+                "key": "alt+numpad2",
+                "command": "workbench.action.openEditorAtIndex2",
+                "when": ""
+            },   
+            {
+                "name": "numpad -> switch to tab by index=3 in current editor",
+                "win": "alt+numpad3",
+                "linux": "alt+numpad3",
+                "key": "alt+numpad3",
+                "command": "workbench.action.openEditorAtIndex3",
+                "when": ""
+            },   
+            {
+                "name": "numpad -> switch to tab by index=4 in current editor",
+                "win": "alt+numpad4",
+                "linux": "alt+numpad4",
+                "key": "alt+numpad4",
+                "command": "workbench.action.openEditorAtIndex4",
+                "when": ""
+            },   
+            {
+                "name": "numpad -> switch to tab by index=5 in current editor",
+                "win": "alt+numpad5",
+                "linux": "alt+numpad5",
+                "key": "alt+numpad5",
+                "command": "workbench.action.openEditorAtIndex5",
+                "when": ""
+            },   
+            {
+                "name": "numpad -> switch to tab by index=6 in current editor",
+                "win": "alt+numpad6",
+                "linux": "alt+numpad6",
+                "key": "alt+numpad6",
+                "command": "workbench.action.openEditorAtIndex6",
+                "when": ""
+            },
+            {
+                "name": "numpad -> switch to tab by index=7 in current editor",
+                "win": "alt+numpad7",
+                "linux": "alt+numpad7",
+                "key": "alt+numpad7",
+                "command": "workbench.action.openEditorAtIndex7",
+                "when": ""
+            }, 
+            {
+                "name": "numpad -> switch to tab by index=8 in current editor",
+                "win": "alt+numpad8",
+                "linux": "alt+numpad8",
+                "key": "alt+numpad8",
+                "command": "workbench.action.openEditorAtIndex8",
+                "when": ""
+            }, 
+            {
+                "name": "numpad -> switch to tab by index=9 in current editor",
+                "win": "alt+numpad9",
+                "linux": "alt+numpad9",
+                "key": "alt+numpad9",
+                "command": "workbench.action.openEditorAtIndex9",
+                "when": ""
+            },         
+            {
+                "name": "go to index=1 editor group",
+                "win": "shift+alt+1",
+                "linux": "shift+alt+1",
+                "key": "shift+alt+1",
+                "command": "workbench.action.moveEditorToFirstGroup",
+                "when": ""
+            },
+            {
+                "name": "go to index=2 editor group",
+                "win": "shift+alt+2",
+                "linux": "shift+alt+2",
+                "key": "shift+alt+2",
+                "command": "workbench.action.focusSecondEditorGroup",
+                "when": ""
+            },
+            {
+                "name": "go to index=3 editor group",
+                "win": "shift+alt+3",
+                "linux": "shift+alt+3",
+                "key": "shift+alt+3",
+                "command": "workbench.action.focusThirdEditorGroup",
+                "when": ""
+            },
+            {
+                "name": "go to index=4 editor group",
+                "win": "shift+alt+4",
+                "linux": "shift+alt+4",
+                "key": "shift+alt+4",
+                "command": "workbench.action.focusFourthEditorGroup",
+                "when": ""
+            },
+            {
+                "name": "go to index=5 editor group",
+                "win": "shift+alt+5",
+                "linux": "shift+alt+5",
+                "key": "shift+alt+5",
+                "command": "workbench.action.focusFifthEditorGroup",
+                "when": ""
+            },
+            {
+                "name": "go to index=6 editor group",
+                "win": "shift+alt+6",
+                "linux": "shift+alt+6",
+                "key": "shift+alt+6",
+                "command": "workbench.action.focusSixthEditorGroup",
+                "when": ""
+            },
+            {
+                "name": "go to index=7 editor group",
+                "win": "shift+alt+7",
+                "linux": "shift+alt+7",
+                "key": "shift+alt+7",
+                "command": "workbench.action.focusSeventhEditorGroup",
+                "when": ""
+            },
+            {
+                "name": "go to index=8 editor group",
+                "win": "shift+alt+8",
+                "linux": "shift+alt+8",
+                "key": "shift+alt+8",
+                "command": "workbench.action.focusEighthEditorGroup",
+                "when": ""
+            },
+            {
+                "name": "go to index=9 editor group",
+                "win": "shift+alt+9",
+                "linux": "shift+alt+9",
+                "key": "shift+alt+9",
+                "command": "workbench.action.lastEditorInGroup",
+                "when": ""
+            },
+            {
+                "name": "numpad -> go to index=1 editor group",
+                "win": "shift+alt+numpad1",
+                "linux": "shift+alt+numpad1",
+                "key": "shift+alt+numpad1",
+                "command": "workbench.action.focusFirstEditorGroup",
+                "when": ""
+            },
+            {
+                "name": "numpad -> go to index=2 editor group",
+                "win": "shift+alt+numpad2",
+                "linux": "shift+alt+numpad2",
+                "key": "shift+alt+numpad2",
+                "command": "workbench.action.focusSecondEditorGroup",
+                "when": ""
+            },
+            {
+                "name": "numpad -> go to index=3 editor group",
+                "win": "shift+alt+numpad3",
+                "linux": "shift+alt+numpad3",
+                "key": "shift+alt+numpad3",
+                "command": "workbench.action.focusThirdEditorGroup",
+                "when": ""
+            },
+            {
+                "name": "numpad -> go to index=4 editor group",
+                "win": "shift+alt+numpad4",
+                "linux": "shift+alt+numpad4",
+                "key": "shift+alt+numpad4",
+                "command": "workbench.action.focusFourthEditorGroup",
+                "when": ""
+            },
+            {
+                "name": "numpad -> go to index=5 editor group",
+                "win": "shift+alt+numpad5",
+                "linux": "shift+alt+numpad5",
+                "key": "shift+alt+numpad5",
+                "command": "workbench.action.focusFifthEditorGroup",
+                "when": ""
+            },
+            {
+                "name": "numpad -> go to index=6 editor group",
+                "win": "shift+alt+numpad6",
+                "linux": "shift+alt+numpad6",
+                "key": "shift+alt+numpad6",
+                "command": "workbench.action.focusSixthEditorGroup",
+                "when": ""
+            },
+            {
+                "name": "numpad -> go to index=7 editor group",
+                "win": "shift+alt+numpad7",
+                "linux": "shift+alt+numpad7",
+                "key": "shift+alt+numpad7",
+                "command": "workbench.action.focusSeventhEditorGroup",
+                "when": ""
+            },
+            {
+                "name": "numpad -> go to index=8 editor group",
+                "win": "shift+alt+numpad8",
+                "linux": "shift+alt+numpad8",
+                "key": "shift+alt+numpad8",
+                "command": "workbench.action.focusEighthEditorGroup",
+                "when": ""
+            },
+            {
+                "name": "numpad -> go to index=9 editor group",
+                "win": "shift+alt+numpad9",
+                "linux": "shift+alt+numpad9",
+                "key": "shift+alt+numpad9",
+                "command": "workbench.action.lastEditorInGroup",
+                "when": ""
+            },
+            {
+                "name": "move to the left tab",
+                "win": "alt+b",
+                "linux": "alt+b",
+                "key": "alt+b",
+                "command": "workbench.action.previousEditor",
+                "when": ""
+            },
+            {
+                "name": "move to the right tab",
+                "win": "alt+n",
+                "linux": "alt+n",
+                "key": "alt+n",
+                "command": "workbench.action.nextEditor",
+                "when": ""
+            },
+            {
+                "name": "switch tab by interface",
+                "win": "ctrl+tab",
+                "linux": "ctrl+tab",
+                "key": "ctrl+tab",
+                "command": "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+                "when": ""
+            },
+            {
+                "name": "switch tab by interface reverse",
+                "win": "ctrl+shift+tab",
+                "linux": "ctrl+shift+tab",
+                "key": "ctrl+shift+tab",
+                "command": "workbench.action.quickOpenLeastRecentlyUsedEditorInGroup",
+                "when": ""
+            },
+            {
+                "name": "select the next tab in interface",
+                "win": "ctrl+tab",
+                "linux": "ctrl+tab",
+                "key": "ctrl+tab",
+                "command": "workbench.action.quickOpenNavigateNextInEditorPicker",
+                "when": "inEditorsPicker && inQuickOpen"
+            },
+            {
+                "name": "select the previous tab in interface",
+                "win": "ctrl+shift+tab",
+                "linux": "ctrl+shift+tab",
+                "key": "ctrl+shift+tab",
+                "command": "workbench.action.quickOpenNavigatePreviousInEditorPicker",
+                "when": "inEditorsPicker && inQuickOpen"
+            },
+            {
+                "name": "change the current tab index by -1 [x]",
+                "win": "alt+shift+b",
+                "linux": "alt+shift+b",
+                "key": "alt+shift+b",
+                "command": "workbench.action.terminal.scrollDown",
+                "when": "terminalFocus && terminalProcessSupported"
+            },
+            {
+                "name": "change the current tab index by +1 [x]",
+                "win": "alt+shift+n",
+                "linux": "alt+shift+n",
+                "key": "alt+shift+n",
+                "command": "workbench.action.terminal.scrollUp",
+                "when": "terminalFocus && terminalProcessSupported"
+            },
+            {
+                "name": "go back to section where your last action was",
+                "win": "alt+oem_102",
+                "linux": "alt+oem_102",
+                "key": "alt+oem_102",
+                "command": "workbench.action.navigateBack",
+                "when": ""
+            },
+            {
+                "name": "go forward to section where your last action was",
+                "win": "alt+shift+oem_102",
+                "linux": "alt+shift+oem_102",
+                "key": "alt+shift+oem_102",
+                "command": "workbench.action.navigateForward",
+                "when": ""
+            },
+            {
+                "name": "show last used files / command inputline",
+                "win": "ctrl+p",
+                "linux": "ctrl+p",
+                "key": "ctrl+p",
+                "command": "workbench.action.showCommands",
+                "when": ""
+            },
+            {
+                "name": "disable the tab key inside the editor",
+                "win": "ctrl+k t",
+                "linux": "ctrl+k t",
+                "key": "ctrl+k t",
+                "command": "editor.action.toggleTabFocusMode",
+                "when": ""
+            },
+            {
+                "name": "open tab right",
+                "win": "ctrl+m r",
+                "linux": "ctrl+m r",
+                "key": "ctrl+m r",
+                "command": "workbench.action.moveEditorToNextGroup",
+                "when": ""
+            },
+            {
+                "name": "open tab left",
+                "win": "ctrl+m l",
+                "linux": "ctrl+m l",
+                "key": "ctrl+m l",
+                "command": "workbench.action.moveEditorToPreviousGroup",
+                "when": ""
+            },
+            {
+                "name": "move tab right",
+                "win": "ctrl+m n",
+                "linux": "ctrl+m n",
+                "key": "ctrl+m n",
+                "command": "workbench.action.moveEditorToRightGroup",
+                "when": ""
+            },
+            {
+                "name": "move tab left",
+                "win": "ctrl+m b",
+                "linux": "ctrl+m b",
+                "key": "ctrl+m b",
+                "command": "workbench.action.moveEditorToLeftGroup",
+                "when": ""
+            },
+            {
+                "name": "delete line",
+                "win": "ctrl+d",
+                "linux": "ctrl+d",
+                "key": "ctrl+d",
+                "command": "editor.action.deleteLines",
+                "when": "textInputFocus && !editorReadonly"
+            },
+            {
+                "name": "move cursor down",
+                "win": "ctrl+alt+s",
+                "linux": "ctrl+alt+s",
+                "key": "ctrl+alt+s",
+                "command": "cursorDown",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "move cursor up",
+                "win": "ctrl+alt+w",
+                "linux": "ctrl+alt+w",
+                "key": "ctrl+alt+w",
+                "command": "cursorUp",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "move cursor to the left",
+                "win": "ctrl+alt+a",
+                "linux": "ctrl+alt+a",
+                "key": "ctrl+alt+a",
+                "command": "cursorLeft",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "move cursor to the right",
+                "win": "ctrl+alt+d",
+                "linux": "ctrl+alt+d",
+                "key": "ctrl+alt+d",
+                "command": "cursorRight",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "normal -> move cursor up",
+                "win": "up",
+                "linux": "up",
+                "key": "up",
+                "command": "cursorUp",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "normal -> move cursor down",
+                "win": "down",
+                "linux": "down",
+                "key": "down",
+                "command": "cursorDown",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "normal -> move cursor left",
+                "win": "left",
+                "linux": "left",
+                "key": "left",
+                "command": "cursorLeft",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "normal -> move cursor right",
+                "win": "right",
+                "linux": "right",
+                "key": "right",
+                "command": "cursorRight",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "insert line after current",
+                "win": "ctrl+enter",
+                "linux": "ctrl+enter",
+                "key": "ctrl+enter",
+                "command": "editor.action.insertLineAfter",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "name": "insert line before",
+                "win": "ctrl+alt+enter",
+                "linux": "ctrl+alt+enter",
+                "key": "ctrl+alt+enter",
+                "command": "editor.action.insertLineBefore",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "name": "remove the whole left word",
+                "win": "ctrl+backspace",
+                "linux": "ctrl+backspace",
+                "key": "ctrl+backspace",
+                "command": "deleteWordLeft",
+                "when": "textInputFocus && !editorReadonly"
+            },
+            {
+                "name": "move line down",
+                "win": "ctrl+alt+shift+s",
+                "linux": "ctrl+alt+shift+s",
+                "key": "ctrl+alt+shift+s",
+                "command": "editor.action.moveLinesDownAction",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "name": "move line up",
+                "win": "ctrl+alt+shift+w",
+                "linux": "ctrl+alt+shift+w",
+                "key": "ctrl+alt+shift+w",
+                "command": "editor.action.moveLinesUpAction",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "name": "duplicate line below",
+                "win": "ctrl+j",
+                "linux": "ctrl+j",
+                "key": "ctrl+j",
+                "command": "editor.action.copyLinesDownAction",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "name": "duplicate line above",
+                "win": "ctrl+alt+j",
+                "linux": "ctrl+alt+j",
+                "key": "ctrl+alt+j",
+                "command": "editor.action.copyLinesUpAction",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "name": "rename all the marked words",
+                "win": "ctrl+alt+r",
+                "linux": "ctrl+alt+r",
+                "key": "ctrl+alt+r",
+                "command": "editor.action.changeAll",
+                "when": "editorTextFocus && editorTextFocus && !editorReadonly"
+            },
+            {
+                "name": "go to the begin of file",
+                "win": "ctrl+oem_1",
+                "linux": "ctrl+oem_1",
+                "key": "ctrl+oem_1",
+                "command": "cursorTop",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "go to the end of file",
+                "win": "ctrl+oem_7",
+                "linux": "ctrl+oem_7",
+                "key": "ctrl+oem_7",
+                "command": "cursorBottom",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "go to begin of line",
+                "win": "ctrl+oem_102",
+                "linux": "ctrl+oem_102",
+                "key": "ctrl+oem_102",
+                "command": "cursorHome",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "go to end of line",
+                "win": "ctrl+alt+oem_102",
+                "linux": "ctrl+alt+oem_102",
+                "key": "ctrl+alt+oem_102",
+                "command": "cursorEnd",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "indent line",
+                "win": "ctrl+i",
+                "linux": "ctrl+i",
+                "key": "ctrl+i",
+                "command": "editor.action.indentLines",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "name": "outdent line",
+                "win": "ctrl+u",
+                "linux": "ctrl+u",
+                "key": "ctrl+u",
+                "command": "editor.action.outdentLines",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "name": "tab -> outdent line",
+                "win": "shift+tab",
+                "linux": "shift+tab",
+                "key": "shift+tab",
+                "command": "editor.action.outdentLines",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "name": "add single line comment",
+                "win": "ctrl+oem_2",
+                "linux": "ctrl+oem_2",
+                "key": "ctrl+oem_2",
+                "command": "editor.action.commentLine",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "name": "add multi line comment",
+                "win": "ctrl+alt+oem_2",
+                "linux": "ctrl+alt+oem_2",
+                "key": "ctrl+alt+oem_2",
+                "command": "editor.action.blockComment",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "name": "fold code",
+                "win": "ctrl+q",
+                "linux": "ctrl+q",
+                "key": "ctrl+q",
+                "command": "editor.fold",
+                "when": "editorTextFocus && foldingEnabled"
+            },
+            {
+                "name": "unfold code",
+                "win": "ctrl+oem_3",
+                "linux": "ctrl+oem_3",
+                "key": "ctrl+oem_3",
+                "command": "editor.unfold",
+                "when": "editorTextFocus && foldingEnabled"
+            },
+            {
+                "name": "fold all code",
+                "win": "ctrl+shift+q",
+                "linux": "ctrl+shift+q",
+                "key": "ctrl+shift+q",
+                "command": "editor.foldAll",
+                "when": "editorTextFocus && foldingEnabled"
+            },
+            {
+                "name": "unfold all code",
+                "win": "ctrl+shift+oem_3",
+                "linux": "ctrl+shift+oem_3",
+                "key": "ctrl+shift+oem_3",
+                "command": "editor.unfoldAll",
+                "when": "editorTextFocus && foldingEnabled"
+            },
+            {
+                "name": "undo",
+                "win": "ctrl+z",
+                "linux": "ctrl+z",
+                "key": "ctrl+z",
+                "command": "undo",
+                "when": ""
+            },
+            {
+                "name": "redo",
+                "win": "ctrl+y",
+                "linux": "ctrl+y",
+                "key": "ctrl+y",
+                "command": "redo",
+                "when": ""
+            },
+            {
+                "name": "go to line",
+                "win": "ctrl+l",
+                "linux": "ctrl+l",
+                "key": "ctrl+l",
+                "command": "workbench.action.gotoLine",
+                "when": ""
+            },
+            {
+                "name": "format code",
+                "win": "ctrl+alt+f",
+                "linux": "ctrl+alt+f",
+                "key": "ctrl+alt+f",
+                "command": "editor.action.formatDocument",
+                "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+            },
+            {
+                "name": "format code none",
+                "win": "ctrl+alt+f",
+                "linux": "ctrl+alt+f",
+                "key": "ctrl+alt+f",
+                "command": "editor.action.formatDocument.none",
+                "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorHasDocumentFormattingProvider && !editorReadonly"
+            },
+            {
+                "name": "select the current word",
+                "win": "ctrl+alt+g",
+                "linux": "ctrl+alt+g",
+                "key": "ctrl+alt+g",
+                "command": "editor.action.addSelectionToNextFindMatch",
+                "when": "editorFocus"
+            },
+            {
+                "name": "select the current line",
+                "win": "ctrl+alt+l",
+                "linux": "ctrl+alt+l",
+                "key": "ctrl+alt+l",
+                "command": "expandLineSelection",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "replace words menu",
+                "win": "ctrl+r",
+                "linux": "ctrl+r",
+                "key": "ctrl+r",
+                "command": "editor.action.startFindReplaceAction",
+                "when": ""
+            },
+            {
+                "name": "replace words in multiple files",
+                "win": "ctrl+shift+r",
+                "linux": "ctrl+shift+r",
+                "key": "ctrl+shift+r",
+                "command": "workbench.action.replaceInFiles",
+                "when": ""
+            },
+            {
+                "name": "find words menu",
+                "win": "ctrl+f",
+                "linux": "ctrl+f",
+                "key": "ctrl+f",
+                "command": "actions.find",
+                "when": ""
+            },
+            {
+                "name": "find words in multiple files",
+                "win": "ctrl+shift+f",
+                "linux": "ctrl+shift+f",
+                "key": "ctrl+shift+f",
+                "command": "workbench.action.findInFiles",
+                "when": ""
+            },
+            {
+                "name": "find the exact word",
+                "win": "alt+w",
+                "linux": "alt+w",
+                "key": "alt+w",
+                "command": "toggleSearchEditorWholeWord",
+                "when": "inSearchEditor && searchInputBoxFocus"
+            },
+            {
+                "name": "find word by regex",
+                "win": "alt+r",
+                "linux": "alt+r",
+                "key": "alt+r",
+                "command": "toggleSearchEditorRegex",
+                "when": "inSearchEditor && searchInputBoxFocus"
+            },
+            {
+                "name": "find word cs",
+                "win": "alt+c",
+                "linux": "alt+c",
+                "key": "alt+c",
+                "command": "toggleSearchEditorCaseSensitive",
+                "when": "inSearchEditor && searchInputBoxFocus"
+            },
+            {
+                "name": "open symbols menu",
+                "win": "alt+u",
+                "linux": "alt+u",
+                "key": "alt+u",
+                "command": "workbench.action.gotoSymbol",
+                "when": ""
+            },
+            {
+                "name": "select words left",
+                "win": "alt+j",
+                "linux": "alt+j",
+                "key": "alt+j",
+                "command": "cursorWordLeftSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "select words right",
+                "win": "alt+l",
+                "linux": "alt+l",
+                "key": "alt+l",
+                "command": "cursorWordRightSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "select words up",
+                "win": "alt+i",
+                "linux": "alt+i",
+                "key": "alt+i",
+                "command": "cursorUpSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "select words down",
+                "win": "alt+k",
+                "linux": "alt+k",
+                "key": "alt+k",
+                "command": "cursorDownSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "arrow -> select words left",
+                "win": "shift+left",
+                "linux": "shift+left",
+                "key": "shift+left",
+                "command": "cursorWordLeftSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "arrow -> select words right",
+                "win": "shift+right",
+                "linux": "shift+right",
+                "key": "shift+right",
+                "command": "cursorWordRightSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "arrow -> select words up",
+                "win": "shift+up",
+                "linux": "shift+up",
+                "key": "shift+up",
+                "command": "cursorWordUpSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "arrow -> select words down",
+                "win": "shift+down",
+                "linux": "shift+down",
+                "key": "shift+down",
+                "command": "cursorWordDownSelect",
+                "when": "textInputFocus"
+            },
+            {
+                "name": "smart select inline",
+                "win": "ctrl+alt+l",
+                "linux": "ctrl+alt+l",
+                "key": "ctrl+alt+l",
+                "command": "editor.action.smartSelect.grow",
+                "when": ""
+            },
+            {
+                "name": "smart deselect inline",
+                "win": "ctrl+alt+j",
+                "linux": "ctrl+alt+j",
+                "key": "ctrl+alt+j",
+                "command": "editor.action.smartSelect.shrink",
+                "when": ""
+            },
+            {
+                "name": "delete word backwards",
+                "win": "ctrl+backspace",
+                "linux": "ctrl+backspace",
+                "key": "ctrl+backspace",
+                "command": "deleteWordLeft",
+                "when": "editorTextFocus"
+            }        
+            
+        ]
+    }
+}
