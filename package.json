@@ -778,10 +778,18 @@
             },
             {
                 "name": "show last used files / command inputline",
+                "win": "alt+oem_2",
+                "linux": "alt+oem_2",
+                "key": "alt+oem_2",
+                "command": "workbench.action.showCommands",
+                "when": ""
+            },
+            {
+                "name": "go to files",
                 "win": "ctrl+p",
                 "linux": "ctrl+p",
                 "key": "ctrl+p",
-                "command": "workbench.action.showCommands",
+                "command": "workbench.action.quickOpen",
                 "when": ""
             },
             {
@@ -862,22 +870,6 @@
                 "linux": "ctrl+alt+d",
                 "key": "ctrl+alt+d",
                 "command": "cursorRight",
-                "when": "textInputFocus"
-            },
-            {
-                "name": "normal -> move cursor up",
-                "win": "up",
-                "linux": "up",
-                "key": "up",
-                "command": "cursorUp",
-                "when": "textInputFocus"
-            },
-            {
-                "name": "normal -> move cursor down",
-                "win": "down",
-                "linux": "down",
-                "key": "down",
-                "command": "cursorDown",
                 "when": "textInputFocus"
             },
             {
