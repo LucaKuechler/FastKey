@@ -946,9 +946,9 @@
             },
             {
                 "name": "duplicate line above",
-                "win": "ctrl+alt+j",
-                "linux": "ctrl+alt+j",
-                "key": "ctrl+alt+j",
+                "win": "ctrl+shift+j",
+                "linux": "ctrl+shift+j",
+                "key": "ctrl+shift+j",
                 "command": "editor.action.copyLinesUpAction",
                 "when": "editorTextFocus && !editorReadonly"
             },
@@ -1106,17 +1106,17 @@
             },
             {
                 "name": "select the current word",
-                "win": "ctrl+alt+g",
-                "linux": "ctrl+alt+g",
-                "key": "ctrl+alt+g",
+                "win": "ctrl+g",
+                "linux": "ctrl+g",
+                "key": "ctrl+g",
                 "command": "editor.action.addSelectionToNextFindMatch",
                 "when": "editorFocus"
             },
             {
                 "name": "select the current line",
-                "win": "ctrl+alt+l",
-                "linux": "ctrl+alt+l",
-                "key": "ctrl+alt+l",
+                "win": "ctrl+h",
+                "linux": "ctrl+h",
+                "key": "ctrl+h",
                 "command": "expandLineSelection",
                 "when": "textInputFocus"
             },
