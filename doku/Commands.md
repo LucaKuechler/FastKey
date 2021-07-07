@@ -26,7 +26,8 @@
 | ctrl+ß m | editor.action.toggleMinimap                  | show  minimap                 | x    |
 | ctrl+ß w | workbench.action.showErrorsWarnings          | show  warnings tab            | x    |
 | ctrl+ß t | workbench.action.selectTheme                 | go to  the color theme menu   | x    |
-| ctrl+.   | settings.switchToJSON                        | switch to json view           | x    |
+| ctrl+.   | workbench.action.openSettingsJson            | switch to json view           | x    |
+| alt+.    | workbench.action.openGlobalKeybindingsFile   | open key bindings as json     | x    |
 | ctrl+k i | workbench.action.selectIconTheme             | open file icon theme          | x    |
 | ctrl+k p | workbench.action.selectProductIconTheme      | open product icon theme       | x    |
 | ctrl+ß b | workbench.action.toggleStatusbarVisibility   | toggle the footer (statusbar) | r    |

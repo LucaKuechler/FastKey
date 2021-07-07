@@ -3,10 +3,10 @@
 	"displayName": "fastKey",
 	"description": "a custom keymap that is fu..ing awesome",
 	"publisher": "mussweg",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/"
+		"url": "https://github.com/LucaKuechler/fastKey"
 	},
 	"engines": {
 		"vscode": "^1.49.0"
@@ -133,7 +133,15 @@
 				"win": "ctrl+oem_period",
 				"linux": "ctrl+oem_period",
 				"key": "ctrl+oem_period",
-				"command": "settings.switchToJSON",
+				"command": "workbench.action.openSettingsJson",
+				"when": ""
+			},
+			{
+				"name": "switch to json view",
+				"win": "alt+oem_period",
+				"linux": "alt+oem_period",
+				"key": "alt+oem_period",
+				"command": "workbench.action.openGlobalKeybindingsFile",
 				"when": ""
 			},
 			{
@@ -785,7 +793,12 @@
 			{
 				"key": "space e",
 				"command": "workbench.action.toggleSidebarVisibility",
-				"when": "!explorerResourceReadonly && !inputFocus"
+				"when": "!explorerResourceReadonly && !inputFocus && explorerViewletVisible"
+			},
+			{
+				"key": "space e",
+				"command": "workbench.view.explorer",
+				"when": "!explorerResourceReadonly && !inputFocus && !explorerViewletVisible"
 			},
 			{
 				"key": "space g",
@@ -825,6 +838,11 @@
 			{
 				"key": "space w",
 				"command": "workbench.action.closeUnmodifiedEditors",
+				"when": "!editorTextFocus && !inputFocus"
+			},
+			{
+				"key": "space k",
+				"command": "workbench.action.openGlobalKeybindings",
 				"when": "!editorTextFocus && !inputFocus"
 			}
 		]
